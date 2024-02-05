@@ -1,0 +1,48 @@
+/* DocumentUpload.css */
+.background {
+    background: url('/public/assets/Float Health Virtual Background 1.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+
+  .form-container h1 {
+    font-size: 36px; /* Adjust the size as needed */
+    font-weight: bold; /* This ensures the text is bold */
+    margin-bottom: 20px;
+  }
+  
+  .process-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .process-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .input-container {
+    margin-top: 20px; /* Adds space above the input */
+    margin-bottom: 20px; /* Adds space below the input */
+    text-align: center; /* Centers the input horizontally */
+  }
+  
+  a {
+    color: blue;       /* Makes the text color blue */
+    text-decoration: underline; /* Adds an underline */
+  }

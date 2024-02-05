@@ -1,0 +1,80 @@
+/* EmailTemplateList.css */
+
+.background {
+  background: url('/public/assets/Float Health Virtual Background 1.png') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  height: 90vh;
+  width: 85%;
+  overflow: auto;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+
+.template-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds space between cards */
+}
+
+.template-card {
+  background: #f0f0fd;
+  margin-bottom: 20px; /* Adds space below each card */
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  width: 49%;
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+}
+
+
+.template-header, .template-subject, .template-body {
+  margin-bottom: 10px;
+}
+
+/* Add more styling as needed */
+
+.template-card button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 5px 10px; /* Padding around the text */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline block level element */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Change background on hover for visual feedback */
+.template-card button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+.copy-button {
+  /* Your existing button styles here */
+  transition: all 0.3s ease; /* Smooth transition for the change */
+}
+
+.copy-button.copied {
+  background-color: #28a745; /* Change color to indicate success */
+  /* Include any other style changes for the 'copied' state */
+  /* Example: Change text color, border, etc. */
+}
